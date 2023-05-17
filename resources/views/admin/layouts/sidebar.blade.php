@@ -15,11 +15,16 @@
         <ul class="navbar-nav">
             <li class="nav-item">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <a class="nav-link text-white active bg-gradient-primary" href="./pages/dashboard.html">
 =======
                 <a class="nav-link text-white   {{ request()->routeIs('dashboard') ? 'bg-gradient-primary active' : '' }}"
                     href="{{ route('dashboard') }}">
 >>>>>>> create_role
+=======
+                <a class="nav-link text-white   {{ request()->routeIs('dashboard') ? 'bg-gradient-primary active' : '' }}"
+                    href="{{ route('dashboard') }}">
+>>>>>>> crud_user
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">dashboard</i>
                     </div>
@@ -27,6 +32,7 @@
                 </a>
             </li>
             <li class="nav-item">
+<<<<<<< HEAD
 <<<<<<< HEAD
                 <a class="nav-link text-white " href="./pages/tables.html">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
@@ -41,18 +47,31 @@
                     </div>
                     <span class="nav-link-text ms-1">Role</span>
 >>>>>>> create_role
+=======
+                <a class="nav-link text-white {{ request()->routeIs('roles.*') ? 'bg-gradient-primary active' : '' }} "
+                    href="{{ route('roles.index') }}">
+                    <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="material-icons opacity-10">table_view</i>
+                    </div>
+                    <span class="nav-link-text ms-1">Role</span>
+>>>>>>> crud_user
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white " href="./pages/billing.html">
+                <a class="nav-link text-white {{ request()->routeIs('users.*') ? 'bg-gradient-primary active' : '' }} "
+                    href="{{ route('users.index') }}">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">receipt_long</i>
                     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
                     <span class="nav-link-text ms-1">Billing</span>
 =======
                     <span class="nav-link-text ms-1">User</span>
 >>>>>>> create_role
+=======
+                    <span class="nav-link-text ms-1">User</span>
+>>>>>>> crud_user
                 </a>
             </li>
             <li class="nav-item">
@@ -61,17 +80,23 @@
                         <i class="material-icons opacity-10">view_in_ar</i>
                     </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <span class="nav-link-text ms-1">Virtual Reality</span>
 =======
                     <span class="nav-link-text ms-1">Product</span>
 >>>>>>> create_role
+=======
+                    <span class="nav-link-text ms-1">Product</span>
+>>>>>>> crud_user
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white " href="./pages/rtl.html">
+                <a class="nav-link text-white {{ request()->routeIs('categories.*') ? 'bg-gradient-primary active' : '' }} "
+                    href="{{ route('categories.index') }}">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">format_textdirection_r_to_l</i>
                     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
                     <span class="nav-link-text ms-1">RTL</span>
                 </a>
@@ -110,10 +135,15 @@
                         <i class="material-icons opacity-10">assignment</i>
                     </div>
                     <span class="nav-link-text ms-1">Sign Up</span>
+=======
+                    <span class="nav-link-text ms-1">Category</span>
+>>>>>>> crud_user
                 </a>
             </li>
+
         </ul>
     </div>
+<<<<<<< HEAD
     <div class="sidenav-footer position-absolute w-100 bottom-0 ">
         <div class="mx-3">
             <a class="btn bg-gradient-primary mt-4 w-100"
@@ -130,4 +160,7 @@
     </div>
 
 >>>>>>> create_role
+=======
+
+>>>>>>> crud_user
 </aside>

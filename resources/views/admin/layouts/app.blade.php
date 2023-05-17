@@ -22,10 +22,14 @@
     <link rel="icon" type="image/png" href="./assets/img/favicon.png">
     <title>
 <<<<<<< HEAD
+<<<<<<< HEAD
         Material Dashboard 2 by Creative Tim
 =======
         @yield('title', 'Dashboard')
 >>>>>>> create_role
+=======
+        @yield('title', 'Dashboard')
+>>>>>>> crud_user
     </title>
     <!--     Fonts and icons     -->
     <link rel="stylesheet" type="text/css"
@@ -176,6 +180,7 @@
             <div class="row">
                 @yield('content')
             </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
             <div class="row mt-4">
                 <div class="col-lg-4 col-md-6 mt-4 mb-4">
@@ -652,6 +657,9 @@
 =======
 
 >>>>>>> create_role
+=======
+
+>>>>>>> crud_user
             <footer class="footer py-4  ">
                 <div class="container-fluid">
                     <div class="row align-items-center justify-content-lg-between">
@@ -663,12 +671,17 @@
                                 </script>,
                                 made with <i class="fa fa-heart"></i> by
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="https://www.creative-tim.com" class="font-weight-bold"
                                     target="_blank">Creative Tim</a>
 =======
                                 <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative
                                     Tim</a>
 >>>>>>> create_role
+=======
+                                <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative
+                                    Tim</a>
+>>>>>>> crud_user
                                 for a better web.
                             </div>
                         </div>
@@ -1052,10 +1065,18 @@
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="{{ asset('admin/assets/js/material-dashboard.min.js?v=3.0.2') }}"></script>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
     @yield('script')
 >>>>>>> create_role
+=======
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="{{ asset('admin/assets/base/base.js') }}"></script>
+    @yield('script')
+>>>>>>> crud_user
 </body>
 
 </html>

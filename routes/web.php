@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\RoleController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,8 +20,17 @@ Route::get('/', function () {
 
 Route::get('/dashboard', function () {
     return view('admin.dashboard.index');
+<<<<<<< HEAD
 });
+=======
+})->name('dashboard');
+>>>>>>> create_role
 Route::get('/home', function () {
     return view('client.layouts.app');
 });
 Auth::routes();
+<<<<<<< HEAD
+=======
+
+Route::resource('roles', RoleController::class);
+>>>>>>> create_role

@@ -21,7 +21,11 @@
     <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="./assets/img/favicon.png">
     <title>
+<<<<<<< HEAD
         Material Dashboard 2 by Creative Tim
+=======
+        @yield('title', 'Dashboard')
+>>>>>>> create_role
     </title>
     <!--     Fonts and icons     -->
     <link rel="stylesheet" type="text/css"
@@ -172,6 +176,7 @@
             <div class="row">
                 @yield('content')
             </div>
+<<<<<<< HEAD
             <div class="row mt-4">
                 <div class="col-lg-4 col-md-6 mt-4 mb-4">
                     <div class="card z-index-2 ">
@@ -644,6 +649,9 @@
                     </div>
                 </div>
             </div>
+=======
+
+>>>>>>> create_role
             <footer class="footer py-4  ">
                 <div class="container-fluid">
                     <div class="row align-items-center justify-content-lg-between">
@@ -654,8 +662,13 @@
                                     document.write(new Date().getFullYear())
                                 </script>,
                                 made with <i class="fa fa-heart"></i> by
+<<<<<<< HEAD
                                 <a href="https://www.creative-tim.com" class="font-weight-bold"
                                     target="_blank">Creative Tim</a>
+=======
+                                <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative
+                                    Tim</a>
+>>>>>>> create_role
                                 for a better web.
                             </div>
                         </div>
@@ -1038,6 +1051,11 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="{{ asset('admin/assets/js/material-dashboard.min.js?v=3.0.2') }}"></script>
+<<<<<<< HEAD
+=======
+
+    @yield('script')
+>>>>>>> create_role
 </body>
 
 </html>

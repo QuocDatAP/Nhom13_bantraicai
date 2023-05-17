@@ -14,7 +14,12 @@
     <div class="collapse navbar-collapse  w-auto  max-height-vh-100" id="sidenav-collapse-main">
         <ul class="navbar-nav">
             <li class="nav-item">
+<<<<<<< HEAD
                 <a class="nav-link text-white active bg-gradient-primary" href="./pages/dashboard.html">
+=======
+                <a class="nav-link text-white   {{ request()->routeIs('dashboard') ? 'bg-gradient-primary active' : '' }}"
+                    href="{{ route('dashboard') }}">
+>>>>>>> create_role
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">dashboard</i>
                     </div>
@@ -22,11 +27,20 @@
                 </a>
             </li>
             <li class="nav-item">
+<<<<<<< HEAD
                 <a class="nav-link text-white " href="./pages/tables.html">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">table_view</i>
                     </div>
                     <span class="nav-link-text ms-1">Tables</span>
+=======
+                <a class="nav-link text-white {{ request()->routeIs('roles.*') ? 'bg-gradient-primary active' : '' }} "
+                    href="{{ route('roles.index') }}">
+                    <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="material-icons opacity-10">table_view</i>
+                    </div>
+                    <span class="nav-link-text ms-1">Role</span>
+>>>>>>> create_role
                 </a>
             </li>
             <li class="nav-item">
@@ -34,7 +48,11 @@
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">receipt_long</i>
                     </div>
+<<<<<<< HEAD
                     <span class="nav-link-text ms-1">Billing</span>
+=======
+                    <span class="nav-link-text ms-1">User</span>
+>>>>>>> create_role
                 </a>
             </li>
             <li class="nav-item">
@@ -42,7 +60,11 @@
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">view_in_ar</i>
                     </div>
+<<<<<<< HEAD
                     <span class="nav-link-text ms-1">Virtual Reality</span>
+=======
+                    <span class="nav-link-text ms-1">Product</span>
+>>>>>>> create_role
                 </a>
             </li>
             <li class="nav-item">
@@ -50,6 +72,7 @@
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">format_textdirection_r_to_l</i>
                     </div>
+<<<<<<< HEAD
                     <span class="nav-link-text ms-1">RTL</span>
                 </a>
             </li>
@@ -98,4 +121,13 @@
                 to pro</a>
         </div>
     </div>
+=======
+                    <span class="nav-link-text ms-1">Category</span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+>>>>>>> create_role
 </aside>

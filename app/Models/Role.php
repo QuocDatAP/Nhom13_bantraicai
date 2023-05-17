@@ -8,6 +8,7 @@ use Spatie\Permission\Models\Role as ModelsRole;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Database\Eloquent\Casts\Attribute;
 >>>>>>> create_role
@@ -17,6 +18,9 @@ use Illuminate\Database\Eloquent\Casts\Attribute;
 =======
 use Illuminate\Database\Eloquent\Casts\Attribute;
 >>>>>>> crud_category
+=======
+use Illuminate\Database\Eloquent\Casts\Attribute;
+>>>>>>> crud_product
 
 class Role extends ModelsRole
 {
@@ -28,15 +32,19 @@ class Role extends ModelsRole
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'group'
     ];
 =======
 =======
 >>>>>>> crud_category
+=======
+>>>>>>> crud_product
         'group',
         'guard_name'
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> create_role
 =======
@@ -47,4 +55,6 @@ class Role extends ModelsRole
 >>>>>>> crud_user
 =======
 >>>>>>> crud_category
+=======
+>>>>>>> crud_product
 }

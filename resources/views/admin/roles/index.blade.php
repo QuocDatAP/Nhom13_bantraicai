@@ -35,6 +35,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <form action="{{ route('roles.destroy', $role->id) }}" id="form-delete{{ $role->id }} "
 =======
                             <form action="{{ route('roles.destroy', $role->id) }}" id="form-delete{{ $role->id }}"
@@ -42,6 +43,9 @@
 =======
                             <form action="{{ route('roles.destroy', $role->id) }}" id="form-delete{{ $role->id }}"
 >>>>>>> crud_category
+=======
+                            <form action="{{ route('roles.destroy', $role->id) }}" id="form-delete{{ $role->id }}"
+>>>>>>> crud_product
                                 method="post">
                                 @csrf
                                 @method('delete')
@@ -60,6 +64,7 @@
     </div>
 
 @endsection
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -84,3 +89,5 @@
 >>>>>>> crud_user
 =======
 >>>>>>> crud_category
+=======
+>>>>>>> crud_product

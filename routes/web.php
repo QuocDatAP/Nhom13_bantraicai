@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\Http\Controllers\Admin\RoleController;
 =======
 use App\Http\Controllers\Admin\CategoryController;
@@ -9,6 +10,8 @@ use App\Http\Controllers\Admin\RoleController;
 use App\Http\Controllers\Admin\UserController;
 >>>>>>> crud_user
 =======
+=======
+>>>>>>> crud_product
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Admin\RoleController;
@@ -16,7 +19,10 @@ use App\Http\Controllers\Admin\UserController;
 use App\Models\Product;
 use App\Models\ProductDetail;
 use Illuminate\Http\Request;
+<<<<<<< HEAD
 >>>>>>> crud_category
+=======
+>>>>>>> crud_product
 use Illuminate\Support\Facades\Route;
 use Intervention\Image\Size;
 
@@ -40,6 +46,7 @@ Route::get('/dashboard', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 });
 =======
 })->name('dashboard');
@@ -50,10 +57,14 @@ Route::get('/dashboard', function () {
 =======
 })->name('dashboard');
 >>>>>>> crud_category
+=======
+})->name('dashboard');
+>>>>>>> crud_product
 Route::get('/home', function () {
     return view('client.layouts.app');
 });
 Auth::routes();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68,6 +79,8 @@ Route::resource('users', UserController::class);
 Route::resource('categories', CategoryController::class);
 >>>>>>> crud_user
 =======
+=======
+>>>>>>> crud_product
 
 Route::resource('roles', RoleController::class);
 Route::resource('users', UserController::class);
@@ -102,6 +115,7 @@ Route::resource('products', ProductController::class);
 
 
 
+<<<<<<< HEAD
 Route::post('/create ', function(Request $request){
 
     $dataCreate = $request->except('sizes');
@@ -116,3 +130,9 @@ Route::post('/create ', function(Request $request){
     ProductDetail::insert($sizeArray);
 })->name('test');
 >>>>>>> crud_category
+=======
+Route::get('/test ', function(Request $request){
+
+ return view('client.products.detail');
+});
+>>>>>>> crud_product

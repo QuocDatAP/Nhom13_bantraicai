@@ -52,9 +52,14 @@
                 <div class="form-group">
                     <label>Description</label>
                     <div class="row w-100 h-100">
+<<<<<<< HEAD
                         <textarea name="description" id="description" class="form-control"
                             style="width: 100%">{{ old('description') }} </textarea>
 
+=======
+                        <textarea name="description" id="description" class="form-control" cols="4" rows="5"
+                            style="width: 100%">{{ old('description') }} </textarea>
+>>>>>>> crud_product
                     </div>
                     @error('description')
                         <span class="text-danger"> {{ $message }}</span>
@@ -120,6 +125,14 @@
             align-items: center
         }
 
+<<<<<<< HEAD
+=======
+        .ck.ck-editor {
+            width: 100%;
+            height: 100%;
+        }
+
+>>>>>>> crud_product
     </style>
 @endsection
 @section('script')

@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <a class="nav-link text-white active bg-gradient-primary" href="./pages/dashboard.html">
 =======
                 <a class="nav-link text-white   {{ request()->routeIs('dashboard') ? 'bg-gradient-primary active' : '' }}"
@@ -30,6 +31,10 @@
                 <a class="nav-link text-white   {{ request()->routeIs('dashboard') ? 'bg-gradient-primary active' : '' }}"
                     href="{{ route('dashboard') }}">
 >>>>>>> crud_category
+=======
+                <a class="nav-link text-white   {{ request()->routeIs('dashboard') ? 'bg-gradient-primary active' : '' }}"
+                    href="{{ route('dashboard') }}">
+>>>>>>> crud_product
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">dashboard</i>
                     </div>
@@ -37,6 +42,7 @@
                 </a>
             </li>
             <li class="nav-item">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -66,6 +72,14 @@
 >>>>>>> crud_user
 =======
 >>>>>>> crud_category
+=======
+                <a class="nav-link text-white {{ request()->routeIs('roles.*') ? 'bg-gradient-primary active' : '' }} "
+                    href="{{ route('roles.index') }}">
+                    <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="material-icons opacity-10">table_view</i>
+                    </div>
+                    <span class="nav-link-text ms-1">Role</span>
+>>>>>>> crud_product
                 </a>
             </li>
             <li class="nav-item">
@@ -74,6 +88,7 @@
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">receipt_long</i>
                     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87,6 +102,9 @@
 =======
                     <span class="nav-link-text ms-1">User</span>
 >>>>>>> crud_category
+=======
+                    <span class="nav-link-text ms-1">User</span>
+>>>>>>> crud_product
                 </a>
             </li>
             <li class="nav-item">
@@ -95,6 +113,7 @@
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">view_in_ar</i>
                     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108,6 +127,9 @@
 =======
                     <span class="nav-link-text ms-1">Product</span>
 >>>>>>> crud_category
+=======
+                    <span class="nav-link-text ms-1">Product</span>
+>>>>>>> crud_product
                 </a>
             </li>
             <li class="nav-item">
@@ -116,6 +138,7 @@
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">format_textdirection_r_to_l</i>
                     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -159,11 +182,15 @@
 =======
                     <span class="nav-link-text ms-1">Category</span>
 >>>>>>> crud_user
+=======
+                    <span class="nav-link-text ms-1">Category</span>
+>>>>>>> crud_product
                 </a>
             </li>
 
         </ul>
     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <div class="sidenav-footer position-absolute w-100 bottom-0 ">
         <div class="mx-3">
@@ -189,4 +216,7 @@
 >>>>>>> crud_user
 =======
 >>>>>>> crud_category
+=======
+
+>>>>>>> crud_product
 </aside>

@@ -7,10 +7,14 @@ use Image;
 trait HandleImageTrait
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected $path = 'upload/users/';
 =======
     protected $path = 'upload/';
 >>>>>>> crud_category
+=======
+    protected $path = 'upload/';
+>>>>>>> crud_product
 
     public function veryfy($request)
     {

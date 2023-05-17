@@ -30,6 +30,7 @@ class CreatePermissionTables extends Migration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $table->string('name', 125);       // For MySQL 8.0 use string('name', 125);
             $table->string('display_name')->nullable();
             $table->string('group');
@@ -37,10 +38,13 @@ class CreatePermissionTables extends Migration
 =======
 =======
 >>>>>>> crud_category
+=======
+>>>>>>> crud_product
             $table->string('name');       // For MySQL 8.0 use string('name', 125);
             $table->string('display_name')->nullable();
             $table->string('group');
             $table->string('guard_name'); // For MySQL 8.0 use string('guard_name', 125);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> create_role
 =======
@@ -51,6 +55,8 @@ class CreatePermissionTables extends Migration
 >>>>>>> crud_user
 =======
 >>>>>>> crud_category
+=======
+>>>>>>> crud_product
             $table->timestamps();
 
             $table->unique(['name', 'guard_name']);
@@ -65,6 +71,7 @@ class CreatePermissionTables extends Migration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $table->string('name', 125);
             $table->string('display_name')->nullable();
             $table->string('group');
@@ -73,11 +80,14 @@ class CreatePermissionTables extends Migration
 =======
 =======
 >>>>>>> crud_category
+=======
+>>>>>>> crud_product
             $table->string('name');
             $table->string('display_name')->nullable();
             $table->string('group');
                  // For MySQL 8.0 use string('name', 125);
             $table->string('guard_name'); // For MySQL 8.0 use string('guard_name', 125);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> create_role
 =======
@@ -89,6 +99,8 @@ class CreatePermissionTables extends Migration
 >>>>>>> crud_user
 =======
 >>>>>>> crud_category
+=======
+>>>>>>> crud_product
             $table->timestamps();
             if ($teams || config('permission.testing')) {
                 $table->unique([$columnNames['team_foreign_key'], 'name', 'guard_name']);

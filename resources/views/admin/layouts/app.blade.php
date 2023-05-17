@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Material Dashboard 2 by Creative Tim
 =======
         @yield('title', 'Dashboard')
@@ -34,6 +35,9 @@
 =======
         @yield('title', 'Dashboard')
 >>>>>>> crud_category
+=======
+        @yield('title', 'Dashboard')
+>>>>>>> crud_product
     </title>
     <!--     Fonts and icons     -->
     <link rel="stylesheet" type="text/css"
@@ -185,6 +189,7 @@
             <div class="row">
                 @yield('content')
             </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -669,6 +674,9 @@
 =======
 
 >>>>>>> crud_category
+=======
+
+>>>>>>> crud_product
             <footer class="footer py-4  ">
                 <div class="container-fluid">
                     <div class="row align-items-center justify-content-lg-between">
@@ -679,6 +687,7 @@
                                     document.write(new Date().getFullYear())
                                 </script>,
                                 made with <i class="fa fa-heart"></i> by
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -696,6 +705,10 @@
                                 <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative
                                     Tim</a>
 >>>>>>> crud_category
+=======
+                                <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative
+                                    Tim</a>
+>>>>>>> crud_product
                                 for a better web.
                             </div>
                         </div>
@@ -1081,16 +1094,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
     @yield('script')
 >>>>>>> create_role
 =======
+=======
+>>>>>>> crud_product
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
         crossorigin="anonymous"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="{{ asset('admin/assets/base/base.js') }}"></script>
     @yield('script')
+<<<<<<< HEAD
 >>>>>>> crud_user
 =======
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
@@ -1099,6 +1116,8 @@
     <script src="{{ asset('admin/assets/base/base.js') }}"></script>
     @yield('script')
 >>>>>>> crud_category
+=======
+>>>>>>> crud_product
 </body>
 
 </html>

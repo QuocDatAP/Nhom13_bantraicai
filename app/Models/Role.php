@@ -7,12 +7,16 @@ use Illuminate\Database\Eloquent\Model;
 use Spatie\Permission\Models\Role as ModelsRole;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Database\Eloquent\Casts\Attribute;
 >>>>>>> create_role
 =======
 use Illuminate\Database\Eloquent\Casts\Attribute;
 >>>>>>> crud_user
+=======
+use Illuminate\Database\Eloquent\Casts\Attribute;
+>>>>>>> crud_category
 
 class Role extends ModelsRole
 {
@@ -23,13 +27,17 @@ class Role extends ModelsRole
         'display_name',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'group'
     ];
 =======
+=======
+>>>>>>> crud_category
         'group',
         'guard_name'
     ];
 
+<<<<<<< HEAD
 >>>>>>> create_role
 =======
         'group',
@@ -37,4 +45,6 @@ class Role extends ModelsRole
     ];
 
 >>>>>>> crud_user
+=======
+>>>>>>> crud_category
 }

@@ -16,6 +16,7 @@
             <li class="nav-item">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <a class="nav-link text-white active bg-gradient-primary" href="./pages/dashboard.html">
 =======
                 <a class="nav-link text-white   {{ request()->routeIs('dashboard') ? 'bg-gradient-primary active' : '' }}"
@@ -25,6 +26,10 @@
                 <a class="nav-link text-white   {{ request()->routeIs('dashboard') ? 'bg-gradient-primary active' : '' }}"
                     href="{{ route('dashboard') }}">
 >>>>>>> crud_user
+=======
+                <a class="nav-link text-white   {{ request()->routeIs('dashboard') ? 'bg-gradient-primary active' : '' }}"
+                    href="{{ route('dashboard') }}">
+>>>>>>> crud_category
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">dashboard</i>
                     </div>
@@ -34,18 +39,22 @@
             <li class="nav-item">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <a class="nav-link text-white " href="./pages/tables.html">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">table_view</i>
                     </div>
                     <span class="nav-link-text ms-1">Tables</span>
 =======
+=======
+>>>>>>> crud_category
                 <a class="nav-link text-white {{ request()->routeIs('roles.*') ? 'bg-gradient-primary active' : '' }} "
                     href="{{ route('roles.index') }}">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">table_view</i>
                     </div>
                     <span class="nav-link-text ms-1">Role</span>
+<<<<<<< HEAD
 >>>>>>> create_role
 =======
                 <a class="nav-link text-white {{ request()->routeIs('roles.*') ? 'bg-gradient-primary active' : '' }} "
@@ -55,6 +64,8 @@
                     </div>
                     <span class="nav-link-text ms-1">Role</span>
 >>>>>>> crud_user
+=======
+>>>>>>> crud_category
                 </a>
             </li>
             <li class="nav-item">
@@ -65,6 +76,7 @@
                     </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <span class="nav-link-text ms-1">Billing</span>
 =======
                     <span class="nav-link-text ms-1">User</span>
@@ -72,13 +84,18 @@
 =======
                     <span class="nav-link-text ms-1">User</span>
 >>>>>>> crud_user
+=======
+                    <span class="nav-link-text ms-1">User</span>
+>>>>>>> crud_category
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white " href="./pages/virtual-reality.html">
+                <a class="nav-link text-white {{ request()->routeIs('products.*') ? 'bg-gradient-primary active' : '' }} "
+                    href="{{ route('products.index') }}">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">view_in_ar</i>
                     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                     <span class="nav-link-text ms-1">Virtual Reality</span>
@@ -88,6 +105,9 @@
 =======
                     <span class="nav-link-text ms-1">Product</span>
 >>>>>>> crud_user
+=======
+                    <span class="nav-link-text ms-1">Product</span>
+>>>>>>> crud_category
                 </a>
             </li>
             <li class="nav-item">
@@ -96,6 +116,7 @@
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">format_textdirection_r_to_l</i>
                     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                     <span class="nav-link-text ms-1">RTL</span>
@@ -152,6 +173,8 @@
         </div>
     </div>
 =======
+=======
+>>>>>>> crud_category
                     <span class="nav-link-text ms-1">Category</span>
                 </a>
             </li>
@@ -159,8 +182,11 @@
         </ul>
     </div>
 
+<<<<<<< HEAD
 >>>>>>> create_role
 =======
 
 >>>>>>> crud_user
+=======
+>>>>>>> crud_category
 </aside>

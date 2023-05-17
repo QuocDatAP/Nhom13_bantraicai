@@ -29,15 +29,19 @@ class CreatePermissionTables extends Migration
             $table->bigIncrements('id');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $table->string('name', 125);       // For MySQL 8.0 use string('name', 125);
             $table->string('display_name')->nullable();
             $table->string('group');
             $table->string('guard_name', 125); // For MySQL 8.0 use string('guard_name', 125);
 =======
+=======
+>>>>>>> crud_category
             $table->string('name');       // For MySQL 8.0 use string('name', 125);
             $table->string('display_name')->nullable();
             $table->string('group');
             $table->string('guard_name'); // For MySQL 8.0 use string('guard_name', 125);
+<<<<<<< HEAD
 >>>>>>> create_role
 =======
             $table->string('name');       // For MySQL 8.0 use string('name', 125);
@@ -45,6 +49,8 @@ class CreatePermissionTables extends Migration
             $table->string('group');
             $table->string('guard_name'); // For MySQL 8.0 use string('guard_name', 125);
 >>>>>>> crud_user
+=======
+>>>>>>> crud_category
             $table->timestamps();
 
             $table->unique(['name', 'guard_name']);
@@ -58,17 +64,21 @@ class CreatePermissionTables extends Migration
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $table->string('name', 125);
             $table->string('display_name')->nullable();
             $table->string('group');
                  // For MySQL 8.0 use string('name', 125);
             $table->string('guard_name', 125); // For MySQL 8.0 use string('guard_name', 125);
 =======
+=======
+>>>>>>> crud_category
             $table->string('name');
             $table->string('display_name')->nullable();
             $table->string('group');
                  // For MySQL 8.0 use string('name', 125);
             $table->string('guard_name'); // For MySQL 8.0 use string('guard_name', 125);
+<<<<<<< HEAD
 >>>>>>> create_role
 =======
             $table->string('name');
@@ -77,6 +87,8 @@ class CreatePermissionTables extends Migration
                  // For MySQL 8.0 use string('name', 125);
             $table->string('guard_name'); // For MySQL 8.0 use string('guard_name', 125);
 >>>>>>> crud_user
+=======
+>>>>>>> crud_category
             $table->timestamps();
             if ($teams || config('permission.testing')) {
                 $table->unique([$columnNames['team_foreign_key'], 'name', 'guard_name']);

@@ -34,10 +34,14 @@
                             <a href="{{ route('roles.edit', $role->id) }}" class="btn btn-warning">Edit</a>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <form action="{{ route('roles.destroy', $role->id) }}" id="form-delete{{ $role->id }} "
 =======
                             <form action="{{ route('roles.destroy', $role->id) }}" id="form-delete{{ $role->id }}"
 >>>>>>> crud_user
+=======
+                            <form action="{{ route('roles.destroy', $role->id) }}" id="form-delete{{ $role->id }}"
+>>>>>>> crud_category
                                 method="post">
                                 @csrf
                                 @method('delete')
@@ -56,6 +60,7 @@
     </div>
 
 @endsection
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 @section('script')
@@ -77,3 +82,5 @@
 @endsection
 =======
 >>>>>>> crud_user
+=======
+>>>>>>> crud_category

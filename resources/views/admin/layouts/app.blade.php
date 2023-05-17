@@ -23,6 +23,7 @@
     <title>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Material Dashboard 2 by Creative Tim
 =======
         @yield('title', 'Dashboard')
@@ -30,6 +31,9 @@
 =======
         @yield('title', 'Dashboard')
 >>>>>>> crud_user
+=======
+        @yield('title', 'Dashboard')
+>>>>>>> crud_category
     </title>
     <!--     Fonts and icons     -->
     <link rel="stylesheet" type="text/css"
@@ -43,6 +47,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
     <!-- CSS Files -->
     <link id="pagestyle" href="{{ asset('admin/assets/css/material-dashboard.css?v=3.0.2') }}" rel="stylesheet" />
+    @yield('style')
 </head>
 
 <body class="g-sidenav-show  bg-gray-200">
@@ -180,6 +185,7 @@
             <div class="row">
                 @yield('content')
             </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             <div class="row mt-4">
@@ -660,6 +666,9 @@
 =======
 
 >>>>>>> crud_user
+=======
+
+>>>>>>> crud_category
             <footer class="footer py-4  ">
                 <div class="container-fluid">
                     <div class="row align-items-center justify-content-lg-between">
@@ -672,6 +681,7 @@
                                 made with <i class="fa fa-heart"></i> by
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="https://www.creative-tim.com" class="font-weight-bold"
                                     target="_blank">Creative Tim</a>
 =======
@@ -682,6 +692,10 @@
                                 <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative
                                     Tim</a>
 >>>>>>> crud_user
+=======
+                                <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative
+                                    Tim</a>
+>>>>>>> crud_category
                                 for a better web.
                             </div>
                         </div>
@@ -1066,6 +1080,7 @@
     <script src="{{ asset('admin/assets/js/material-dashboard.min.js?v=3.0.2') }}"></script>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
     @yield('script')
@@ -1077,6 +1092,13 @@
     <script src="{{ asset('admin/assets/base/base.js') }}"></script>
     @yield('script')
 >>>>>>> crud_user
+=======
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="{{ asset('admin/assets/base/base.js') }}"></script>
+    @yield('script')
+>>>>>>> crud_category
 </body>
 
 </html>

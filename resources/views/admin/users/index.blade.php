@@ -27,7 +27,11 @@
                 @foreach ($users as $item)
                     <tr>
                         <td>{{ $item->id }}</td>
+<<<<<<< HEAD
                         <td><img src="{{ $item->images->count() > 0 ? asset('upload/users/' . $item->images->first()->url) : 'upload/users/default.png' }}"
+=======
+                        <td><img src="{{ $item->images->count() > 0 ? asset('upload/' . $item->images->first()->url) : 'upload/default.png' }}"
+>>>>>>> crud_category
                                 width="200px" height="200px" alt=""></td>
                         <td>{{ $item->name }}</td>
                         <td>{{ $item->email }}</td>
